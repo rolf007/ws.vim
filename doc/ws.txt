@@ -1,0 +1,55 @@
+*ws.txt*	For Vim version 8.0	May 2017
+*ws* *Whitespace*
+*ws-filetype*
+==============================================================================
+     __    __  __ __  ____  ______    ___  _____ ____   ____    __    ___ 
+    !  !__!  !!  !  !!    !!      !  /  _]/ ___/!    \ /    !  /  ]  /  _]
+    !  !  !  !!  !  ! !  ! !      ! /  [_(   \_ !  o  )  o  ! /  /  /  [_ 
+    !  !  !  !!  _  ! !  ! !_!  !_!!    _]\__  !!   _/!     !/  /  !    _]
+    !  `  '  !!  !  ! !  !   !  !  !   [_ /  \ !!  !  !  _  /   \_ !   [_ 
+     \      / !  !  ! !  !   !  !  !     !\    !!  !  !  !  \     !!     !
+      \_/\_/  !__!__!!____!  !__!  !_____! \___!!__!  !__!__!\____!!_____!
+
+==============================================================================
+CONTENTS                                                           *ws-contents*
+
+    1. Intro..........................................................|ws-intro|
+    2. Installation............................................|ws-installation|
+    3. Future........................................................|ws-future|
+
+==============================================================================
+INTRO                                                                 *ws-intro*
+
+This plugin provides ftplugin with support for syntax highlighting, indention
+and tabstop for Whitespace (programming language).
+For more about Whitespace, see:
+    http://compsoc.dur.ac.uk/whitespace/
+or
+    http://en.wikipedia.org/wiki/Whitespace_%28programming_language%29
+
+For a complete set of opcodes, see examples/all_opcodes.ws
+Also, see the examples/mandel.ws for some working Whitespace-code
+
+Official Vim script page:
+    http://www.vim.org/scripts/script.php?script_id=5035
+
+Official github page:
+    https://github.com/rolf007/ws.vim
+
+Author: Rolf Asmund
+
+==============================================================================
+INSTALLATION                                                   *ws-installation*
+
+Use Vundle or other Pathogen compatible package manager
+
+Vundle line:
+    Plugin 'rolf007/ws.vim'
+
+==============================================================================
+FUTURE                                                               *ws-future*
+
+Status line should optionally show the opcode under the cursor
+
+==============================================================================
+vim:tw=78:ts=8:ft=help:norl:
