@@ -110,12 +110,12 @@ syn match wsReadNumN   '\t\S*\n\S*\t\S*\t\S*\n' contains=wsReadNumA,wsReadNumB n
 syn match wsReadChar   '\t\S*\n\S*\t\S*\ '      contains=wsReadCharA,wsReadCharB
 syn match wsReadCharN  '\t\S*\n\S*\t\S*\ \S*\n' contains=wsReadCharA,wsReadCharB nextgroup=@wsStartsWithNewline
 
-hi wsKeywordSpace term=NONE cterm=NONE ctermfg=NONE ctermbg=4
-hi wsKeywordTab term=NONE cterm=NONE ctermfg=NONE ctermbg=0
-hi wsFirstSpace term=NONE cterm=NONE ctermfg=NONE ctermbg=2
-hi wsFirstTab term=NONE cterm=NONE ctermfg=NONE ctermbg=5
-hi wsNumberSpace term=NONE cterm=NONE ctermfg=NONE ctermbg=7
-hi wsNumberTab term=NONE cterm=NONE ctermfg=NONE ctermbg=6
-hi wsLabelSpace term=NONE cterm=NONE ctermfg=NONE ctermbg=7
-hi wsLabelTab term=NONE cterm=NONE ctermfg=NONE ctermbg=3
-hi wsError term=NONE cterm=NONE ctermfg=NONE ctermbg=1
+hi wsKeywordSpace term=NONE cterm=NONE ctermbg=DarkBlue guibg=DarkBlue
+hi wsKeywordTab term=NONE cterm=NONE ctermbg=Black guibg=Black
+hi wsFirstSpace term=NONE cterm=NONE ctermbg=DarkGreen guibg=DarkGreen
+hi wsFirstTab term=NONE cterm=NONE ctermbg=DarkMagenta guibg=DarkMagenta
+hi wsNumberSpace term=NONE cterm=NONE ctermbg=Grey guibg=Grey
+hi wsNumberTab term=NONE cterm=NONE ctermbg=DarkCyan guibg=DarkCyan
+hi wsLabelSpace term=NONE cterm=NONE ctermbg=Grey guibg=Grey
+hi wsLabelTab term=NONE cterm=NONE ctermbg=Brown guibg=#a06000
+hi wsError term=NONE cterm=NONE ctermbg=DarkRed guibg=DarkRed
